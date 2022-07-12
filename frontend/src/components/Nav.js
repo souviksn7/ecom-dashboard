@@ -12,7 +12,7 @@ const Nav = ()=>{
 
     return (
         <div>
-          {/* { auth ? 
+          {{ auth ? 
             <ul className='nav-ul'>
                 <li><Link to = "/">Home page</Link></li>
                 <li><Link to = "/add">Add Products</Link></li>
@@ -25,16 +25,7 @@ const Nav = ()=>{
                 <li><Link to = "/signup">Signup</Link></li>
                 <li><Link to = "/login">Login</Link></li>
             </ul>
-          } */}
-          <ul className='nav-ul'>
-                <li><Link to = "/">Home page</Link></li>
-                <li><Link to = "/add">Add Products</Link></li>
-                <li><Link to = "/update">Update Products</Link></li>
-                <li><Link to = "/profile">Profile</Link></li>
-                <li><Link to = "/signup" >Logout</Link></li>
-                <li><Link to = "/signup">Signup</Link></li>
-                <li><Link to = "/login">Login</Link></li>
-            </ul>
+          }}
         </div>
     )
 }
