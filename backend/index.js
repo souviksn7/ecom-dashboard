@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const cors = require("cors")
 
-// importing config file where all variables are stored 
+// importing config file where all global variables are stored 
 require('./db/config')
 
 // importing models
